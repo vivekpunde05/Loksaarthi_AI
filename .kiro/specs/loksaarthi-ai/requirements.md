@@ -90,7 +90,7 @@ LokSaarthi AI is an AI-powered community assistance platform that serves as a br
 
 #### Acceptance Criteria
 
-1. THE LokSaarthi_System SHALL provide native Android mobile application
+1. THE LokSaarthi_System SHALL provide native mobile applications for Android and iOS platforms
 2. THE LokSaarthi_System SHALL provide responsive web portal accessible on all browsers
 3. THE LokSaarthi_System SHALL integrate with WhatsApp Business API for messaging
 4. THE LokSaarthi_System SHALL provide IVR system accessible via phone calls
