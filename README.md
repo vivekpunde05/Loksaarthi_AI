@@ -1,75 +1,47 @@
-# LokSaarthi AI 🇮🇳
+## LokSaarthi AI 🇮🇳
 
-AI-powered community assistance platform bridging the digital divide between citizens and public services in India.
+AI-powered community assistance platform bridging the digital divide between Indian citizens and public services.
 
-## 🌟 Overview
+## What it Does
 
-LokSaarthi AI provides multi-language, multi-modal access to government schemes, welfare programs, healthcare services, and employment opportunities through a unified interface.
+Provides multi-language, multi-modal access to government schemes, welfare programs, healthcare, and employment through a single unified platform.
 
-## ✨ Key Features
+## Key Features
 
-- **🤖 AI Assistant**: 10+ regional languages, voice & text interaction across mobile, web, WhatsApp, IVR, SMS
-- **🎯 Smart Recommendations**: AI-powered eligibility matching for schemes, jobs, scholarships, healthcare
-- **📋 Application Assistance**: Step-by-step guidance, auto-fill forms, document management, real-time tracking
-- **🗺️ Resource Mapping**: Location-based discovery of hospitals, government offices, NGOs, legal aid
-- **📊 Analytics Dashboard**: Real-time insights for government officials with privacy-compliant reporting
+🤖 AI Assistant: 10+ Indian languages, voice & text (Mobile, Web, WhatsApp, IVR, SMS)
 
-## 🏗️ Tech Stack
+🎯 Smart Recommendations: Eligibility-based schemes, jobs, scholarships & healthcare
 
-**Backend**: Node.js/TypeScript, Python/FastAPI, PostgreSQL, Redis, Kafka, Elasticsearch  
-**AI/ML**: OpenAI GPT-4, AI4Bharat IndicNLP, Google Cloud Speech APIs  
-**Frontend**: React Native, React.js, WhatsApp Business API, Twilio Voice  
-**Infrastructure**: AWS/GCP, Docker, Kubernetes
+📋 Application Assistance: Step-by-step guidance, auto-fill forms, document upload & tracking
 
-## 🚀 Quick Start
+🗺️ Resource Mapping: Nearby hospitals, govt offices, NGOs, legal aid
 
-```bash
-# Clone repository
-git clone https://github.com/vivekpunde05/Loksaarthi_AI.git
-cd Loksaarthi_AI
+📊 Analytics Dashboard: Real-time, privacy-compliant insights for officials
 
-# Install dependencies
-npm install
-cd ai-services && pip install -r requirements.txt && cd ..
+## Tech Stack
 
-# Setup database
-docker-compose up -d postgres redis
-npm run db:migrate
+Backend: Node.js, TypeScript, Python (FastAPI), PostgreSQL, Redis, Kafka, Elasticsearch
 
-# Configure environment
-cp .env.example .env
+AI/ML: OpenAI GPT-4, AI4Bharat IndicNLP, Google Speech APIs
 
-# Start services
-docker-compose up -d
-npm run dev:api
-npm run dev:ai
-npm run dev:web
-```
+Frontend: React, React Native, WhatsApp Business API, Twilio
 
-## 📋 Implementation Plan
+Infra: AWS/GCP, Docker, Kubernetes
 
-**Phase 1**: Foundation - Core data models, AI services, recommendation engine  
-**Phase 2**: Core Services - Application assistant, resource mapping, analytics, security  
-**Phase 3**: User Interfaces - Mobile apps, web portal, WhatsApp, IVR integration
+## Implementation Phases
 
-## 📚 Documentation
+Foundation: Core models, AI services, recommendations
 
-- [Requirements](.kiro/specs/loksaarthi-ai/requirements.md) - User stories and acceptance criteria
-- [Design](.kiro/specs/loksaarthi-ai/design.md) - Architecture and correctness properties  
-- [Tasks](.kiro/specs/loksaarthi-ai/tasks.md) - Implementation roadmap
+Core Services: Application assistant, mapping, analytics, security
 
-## 🤝 Contributing
+Interfaces: Mobile app, web portal, WhatsApp & IVR
 
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/name`)
-3. Commit changes (`git commit -m 'Add feature'`)
-4. Push branch (`git push origin feature/name`)
-5. Open Pull Request
+## Docs
 
-## 📄 License
+Requirements • Design • Tasks (Roadmap)
 
-MIT License - see [LICENSE](LICENSE) file for details.
+## License
 
----
+MIT License
 
-**Made with ❤️ for the people of India**
+## Made with ❤️ for the people of India
