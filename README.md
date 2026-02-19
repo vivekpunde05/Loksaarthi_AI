@@ -36,12 +36,32 @@ Core Services: Application assistant, mapping, analytics, security
 
 Interfaces: Mobile app, web portal, WhatsApp & IVR
 
-## Docs
+## Documentation
 
-Requirements • Design • Tasks (Roadmap)
+📄 [Requirements](.kiro/specs/loksaarthi-ai/requirements.md) - Detailed feature requirements
+📐 [Design](.kiro/specs/loksaarthi-ai/design.md) - Technical architecture & design
+✅ [Tasks](.kiro/specs/loksaarthi-ai/tasks.md) - Implementation roadmap
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/vivekpunde05/Loksaarthi_AI.git
+cd Loksaarthi_AI
+
+# Review the implementation plan
+cat .kiro/specs/loksaarthi-ai/tasks.md
+```
+
+## Project Status
+
+🚀 **Phase**: Planning & Specification Complete
+📅 **Last Updated**: February 19, 2026
 
 ## License
 
 MIT License
 
-# Made with ❤️ for the people of India
+---
+
+**Made with ❤️ for the people of India** 🇮🇳
